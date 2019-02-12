@@ -10,4 +10,4 @@ RUN apk add --update ca-certificates \
  && rm /var/cache/apk/*
 
 WORKDIR /root
-ENTRYPOINT ["sh"]
+ENTRYPOINT ["/bin/sh"]
