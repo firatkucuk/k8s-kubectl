@@ -1,4 +1,4 @@
-FROM boxfuse/flyway
+FROM boxfuse/flyway:latest-alpine
 
 ENV KUBE_LATEST_VERSION="v1.13.3"
 
